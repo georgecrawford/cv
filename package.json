@@ -1,0 +1,27 @@
+{
+  "name": "george-crawford-cv",
+  "version": "1.0.0",
+  "description": "George Crawford CV",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node server.js & watch 'node src/index.js' src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgecrawford/cv.git"
+  },
+  "author": "George Crawford <g.o.crawford@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgecrawford/cv/issues"
+  },
+  "homepage": "https://github.com/georgecrawford/cv",
+  "dependencies": {
+    "denodeify": "^1.2.1",
+    "es6-promise": "^2.0.1",
+    "livereload": "^0.3.6",
+    "marked": "^0.3.3",
+    "watch": "^0.14.0"
+  }
+}
